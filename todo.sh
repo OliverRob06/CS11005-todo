@@ -122,7 +122,6 @@ function view {
 		case "$1" in
 			--viewFile)
 				display "$file"
-				echo "Arguments: $@"
 				shift
 				shift
 				;;
